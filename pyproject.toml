@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "codingxcamp"
+version = "0.1.0"
+description = ""
+authors = ["Sabrina Piatti <sabrina.piatti@student.unisg.ch>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.12"
+pandas = "^2.2.3"
+seaborn = "^0.13.2"
+matplotlib = "^3.10.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.8.0"
+pyright = "^1.1.389"
+ipykernel = "^6.29.5"
+
+[tool.pyright]
+# https://github.com/microsoft/pyright/blob/main/docs/configuration.md
+useLibraryCodeForTypes = true
+exclude = [".cache"]
+
+[tool.ruff]
+lint.select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
+lint.ignore = ['W291', 'W292', 'W293']
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
