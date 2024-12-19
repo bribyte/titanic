@@ -7,10 +7,10 @@ The sinking of the Titanic remains one of history's most notorious maritime disa
 The Exploratory Data Analysis provides a detailed examination of the factors that influenced survival rates among Titanic passengers. The key insights derived were:
 
 - **Gender**: The "women and children first" protocol [Birkenhead Drill](https://www.historic-uk.com/CultureUK/Women-Children-First/) significantly influenced survival rates, with females having a higher chance of survival despite being fewer in number. Males, while more numerous, experienced significantly higher mortality rates.
-- **Class**: Socioeconomic status played a pivotal role in survival outcomes. First-class passengers had the highest survival rates, reflecting their preferential access to lifeboats, while the majority of second- and third-class passengers faced devastating survival odds.
+- **Class**: Socioeconomic status played a crucial role in survival outcomes. First-class passengers had the highest survival rates, reflecting their preferential access to lifeboats, while the majority of second- and third-class passengers faced devastating survival odds.
 - **Age**: Younger children benefited from prioritization during evacuation, exhibiting the highest survival rates. Conversely, passengers aged 20-40 and the elderly experienced lower survival chances, influenced by physical challenges and situational disadvantages.
 - **Family Size**: Passengers traveling alone or without children were the most vulnerable, particularly among elderly individuals. Those with one family member—such as a sibling or spouse—had improved survival rates, emphasizing the role of familial support during crises.
-- **Fare and Socioeconomic Indicators**: Higher ticket fares correlated with greater survival likelihood, underscoring disparities in access to lifeboats and resources based on economic status.
+- **Fare and Socioeconomic Indicators**: Higher ticket fares correlated with greater survival likelihood, underscoring differences in access to lifeboats and resources based on economic status.
 - **Embarkation**: While Southampton served as the primary point of embarkation, no significant relationship was found between embarkation location and survival outcomes.
 
 ## Logistic Regression
